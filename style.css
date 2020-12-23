@@ -73,7 +73,7 @@ section{/*centre de la page*/
     height: 44%;
     width: 99%;
 }
-
+/**/
 .cercle {/*photo*/
     height: 130px;
     width: 100px;
@@ -132,7 +132,7 @@ section{/*centre de la page*/
 }
 
 .css{
-    width: 70%;
+    width: 60%;
     animation: css 2s;
 }
 
@@ -140,13 +140,18 @@ section{/*centre de la page*/
     width: 60%;
     animation: Javascript 2s;
 }
+.bootsrap{
+    width: 40%;
+    animation: sql 2s;
+}
+
 .sql{
-    width: 50%;
+    width: 40%;
     animation: sql 2s;
 }
 
 .php{
-    width: 40%;
+    width: 20%;
     animation: php 2s;
 }
 @keyframes html {
@@ -162,7 +167,7 @@ section{/*centre de la page*/
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 60%;
     }
 }
 @keyframes Javascript {
@@ -171,6 +176,14 @@ section{/*centre de la page*/
     }
     100%{
         width: 60%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
     }
 }
 @keyframes sql {
@@ -186,7 +199,7 @@ section{/*centre de la page*/
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 20%;
     }
 }
 /* Fin Barres de progressions */
@@ -267,7 +280,4 @@ h2 {/*titre des cadres page cote gauche*/
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0;
-}
-.class-pourien{
-    background-color: royalblue;
 }
