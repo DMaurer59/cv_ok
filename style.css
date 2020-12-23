@@ -1,0 +1,270 @@
+body{
+    height:99%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,silver, white);
+}
+
+*{
+    font-family: "Comic Sans MS";
+    list-style: none;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    height: 98vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    height: 1vh;
+    width: 100vw;
+}
+
+aside {/*container des cadres coté gauche*/
+    height: 98%;
+    width: 19%;
+    border-style: ridge;
+    border-color: rebeccapurple;
+    border-width: 10px;
+    border-right: none;
+    /*background: linear-gradient(to right,rebeccapurple, white);*/
+    background: linear-gradient(to right,royalblue, white);
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+section{/*centre de la page*/
+    height: 98%;
+    width: 32%;
+    border-style: ridge;
+    border-color: mediumpurple;
+    border-width: 10px;
+    border-left: none;
+    background: white;
+}
+
+.cote{
+    height: 100%;
+    width: 20%;
+}
+
+#aside1 {/*photo*/
+    width: 94%;
+    text-align: center;
+    margin-top: 20px;
+}
+#aside2 {/*contact*/
+    height: 22%;
+    width: 99%;
+}
+#aside3 {/*profil*/
+    height: 32%;
+    width: 99%;
+}
+
+#aside4 {/*competences*/
+    height: 44%;
+    width: 99%;
+}
+
+.cercle {/*photo*/
+    height: 130px;
+    width: 100px;
+    border: 2px;
+    border-style: outset;
+    padding:5px;
+    border-radius: 50%;
+    background: linear-gradient(to right,royalblue, white);
+    /*background: linear-gradient(to right,plum, white);*/
+    /*background: linear-gradient(to right,cadetblue, white);*/
+    float: right;
+    margin-top: 20px;
+}
+
+.img_contact {/*photo*/
+    background: white;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 10%;
+    height: 10%;
+}
+
+
+/* debut Barres de progressions */
+.skills{
+    width: 80%;
+    /*margin: 60px auto;*/
+    color: white;
+    margin-left: 20px;
+}
+
+.skills li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+    height: 2px;
+    float:left;
+    background: #2187e7;
+}
+
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+
+.css{
+    width: 70%;
+    animation: css 2s;
+}
+
+.Javascript{
+    width: 60%;
+    animation: Javascript 2s;
+}
+.sql{
+    width: 50%;
+    animation: sql 2s;
+}
+
+.php{
+    width: 40%;
+    animation: php 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes Javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+/* Fin Barres de progressions */
+
+/*Debut section*/
+#section1 {/*titre*/
+    height: 22%;
+    width: 99%;
+}
+#section2 {/*formation*/
+    height: 32%;
+    width: 99%;
+}
+
+#section3 {/*expériences*/
+    height: 44%;
+    width: 99%;
+}
+/*Fin section*/
+
+/*Titres des textes*/
+h1 {/*titre */
+    color: rebeccapurple;
+    text-shadow: 1px 3px 0 black, 1px 13px 5px #aba8a8;
+    /*text-shadow: 1px 3px 0 black, 1px 13px 5px #aba8a8;*/
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 2em;
+}
+h5 {/*titre page section*/
+    color: black;
+    text-shadow: 1px 3px 0 white, 1px 13px 5px #aba8a8;
+    /*text-shadow: 1px 3px 0 black, 1px 13px 5px #aba8a8;*/
+    margin-right: 20px;
+    font-size: 2em;
+    text-align: right;
+    margin-top: 0;
+}
+h6 {/*titre cadre section*/
+    color: black;
+    text-shadow: 1px 3px 0 white, 1px 13px 5px #aba8a8;
+    /*text-shadow: 1px 3px 0 black, 1px 13px 5px #aba8a8;*/
+    font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+
+h3{
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {/*titre des cadres page cote gauche*/
+    margin-left: 20px;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 black, 1px 13px 5px #aba8a8;
+    /*text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;*/
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.h7{/*texte simple*/
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 0.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+}
